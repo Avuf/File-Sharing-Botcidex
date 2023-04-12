@@ -120,17 +120,30 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
     
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    buttons = [
-        [
-            InlineKeyboardButton(
-                "Join Channel",
-                url = client.invitelink)
-        ]
-        [
-            InlineKeyboardButton("join2cahnnel", url = client.https://t.me/Hentai_Provoderss)],
-             
-        ]                    
-    ]
+    buttons = [[
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 1', url=f'https://t.me/Anime_Pirates')
+       
+    ],[
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 2', url=f'https://t.me/animeandmotivation')   
+    ],[
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 3', url=f'https://t.me/Hentai_Providerss')
+    ],[
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 4', url=f'https://t.me/+1hespS7upGVjYjhl')
+    ],[
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 5', url=f'https://t.me/Jujutsu_Kaisen_Anime_Dub')
+    ],[
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 6', url=f'https://t.me/Tokyo_revengers_inhindi')
+    ],[
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 7', url=f'https://t.me/Anime_Movies_All')
+    ],[
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 8', url=f'https://t.me/Ongoing_Animes_Hats')
+    ],[
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 8', url=f'https://t.me/Eminence_Of_Shadow') 
+    ],[
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 9', url= client.invitelink)
+    ],[
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 10', url=f'https://t.me/Misfit_of_the_Demon_King_Academy')
+    ]]
     try:
         buttons.append(
             [
